@@ -1,4 +1,4 @@
-Here is your AWS CLI command list in markdown format, organized and annotated for clarity:
+
 
 ```markdown
 # AWS CLI Commands for VPC, Subnets, Internet Gateway, and EC2 Instances
