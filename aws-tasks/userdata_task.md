@@ -15,7 +15,7 @@ Step 1: Create an EC2 Instance with User Data
    - Choose an Amazon Machine Image (AMI), such as **Amazon Linux 2**.
    - Select an instance type (e.g., `t2.micro` for the free tier).
    - In the "Configure Instance" step, look for the **User Data** section.
-   ![preview](aud.png)  
+   ![preview](./images/aud.png)  
 3. **Add User Data Script:**
    In the User Data field, enter the following script:
 
@@ -32,7 +32,7 @@ Step 1: Create an EC2 Instance with User Data
 
 4. **Configure Security Group:**
    - Allow inbound traffic on port `80` (HTTP) and `22` (SSH).
-![preview](3.png)
+![preview](./images/3.png)
 5. **Review and Launch:**
    - Review your configurations and click "Launch."
    - Choose or create a key pair for SSH access.
@@ -45,7 +45,7 @@ Step 2: Access Your Application
 2. **Open a Web Browser:**
    - Navigate to `http://your-instance-public-ip`.
    - You should see a webpage displaying the current time.
-![preview](4.png)
+![preview](./images/4.png)
 Step 3: Verify the User Data Execution
 
 1. **SSH into Your Instance:**
@@ -57,7 +57,7 @@ Step 3: Verify the User Data Execution
    ```bash
    sudo systemctl status httpd
    ```
- ![preview](2.png)
+ ![preview](./images/2.png)
 3. **Verify the HTML File:**
    ```bash
    cat /var/www/html/index.html
