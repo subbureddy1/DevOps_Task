@@ -82,7 +82,7 @@ o Upload several files into each "folder" and understand how prefixes work in S3
 
  Upload and delete files in the bucket, observing notifications for each action.
 
-![previeew](./images/s3-4.png)
+![preview](./images/s3-4.png)
 
 7. Implement Cross-Region Replication (Optional)
 
@@ -92,5 +92,5 @@ o Upload several files into each "folder" and understand how prefixes work in S3
 
  Test the replication by uploading files to the primary bucket and verifying their presence in the secondary bucket.
 
- ![previeew](./images/s3-um.png)
- ![previeew](./images/s3-dm.png)
+ ![preview](./images/s3-um.png)
+ ![preview](./images/s3-dm.png)
